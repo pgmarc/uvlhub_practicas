@@ -45,7 +45,7 @@ jobs:
 
     - name: Security audit
       run: |
-        python install pip-audit
+        pip install pip-audit
         pip-audit
     - name: Upload coverage to Codacy
       run: |
